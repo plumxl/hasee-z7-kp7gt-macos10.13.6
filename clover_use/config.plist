@@ -25,7 +25,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>IGPU:change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
@@ -35,6 +35,228 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>IGPU:change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>IGPU:change MEI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TUVJXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Audio:change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>SSDT:change _OSI to XOSI</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery:change ECXP to XCXP</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					RUNYUA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENYUA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery:change _BIF to XBIF</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X0JJRg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEJJRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery:change _BST to XBST</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X0JTVA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEJTVA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery:change ECBE to XCBE</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					RUNCRQA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WENCRQA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C: change USTP, 8 to XSTP, 8</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					VVNUUAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUUAg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C: change SBFI to SBFS</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					i1NCRkk=
+					</data>
+					<key>Replace</key>
+					<data>
+					i1NCRlM=
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBBRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C: change return value to SBFS</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					hFNCRkJTQkZJAA==
+					</data>
+					<key>Replace</key>
+					<data>
+					hFNCRkJTQkZTAA==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBBRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fn: change _Q14 to XQ14</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExNA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExNA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fn: change _Q15 to XQ15</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExNQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExNQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>RTC: change _STA to XSTA</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					UlRDTw==
 					</data>
 				</dict>
 			</array>
@@ -115,10 +337,12 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>29</integer>
+			<integer>28</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>HDMIInjection</key>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
