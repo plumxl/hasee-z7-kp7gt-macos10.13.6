@@ -27,7 +27,7 @@
 					<key>Comment</key>
 					<string>IGPU:change GFX0 to IGPU</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -97,7 +97,7 @@
 					<key>Comment</key>
 					<string>SSDT:change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -165,6 +165,52 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>Fn: change _Q14 to XQ14</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExNA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExNA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fn: change _Q15 to XQ15</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExNQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExNQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>RTC: change _STA to XSTA</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					UlRDTw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>I2C: change USTP, 8 to XSTP, 8</string>
 					<key>Disabled</key>
 					<true/>
@@ -211,52 +257,6 @@
 					<key>TgtBridge</key>
 					<data>
 					VFBBRA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Fn: change _Q14 to XQ14</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExNA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFExNA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Fn: change _Q15 to XQ15</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExNQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFExNQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>RTC: change _STA to XSTA</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					UlRDTw==
 					</data>
 				</dict>
 			</array>
@@ -343,6 +343,8 @@
 		</dict>
 		<key>HDMIInjection</key>
 		<true/>
+		<key>SetIntelBacklight</key>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
